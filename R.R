@@ -43,6 +43,11 @@ p_val_adj1 = p.adjust(p_val1, method = "fdr")
 
 sum(p_val1<0.05)/length(p_val1)
 
+fwrite(data.table(label = Null_Metabolomics_f$label, p_value = p_val1, fold_change = fc1, adjusted_p_value = p_val_adj1),"1 wild - sex.csv")
+
+
+
+
 
 ## 2 adjust by body weight
 Phenotype_UCDavisSelect = wcmc::read_data("Phenotype_UCDavisSelect.xlsx")
@@ -63,6 +68,8 @@ fc2 = apply(Null_Metabolomics_e,1,function(x){
 p_val_adj2 = p.adjust(p_val2,"fdr")
 
 sum(p_val2<0.05)/length(p_val2)
+fwrite(data.table(label = rownames(Null_Metabolomics_e), p_value = p_val2, fold_change = fc2, adjusted_p_value = p_val_adj2),"2 adjust by body weight.csv")
+
 
 ## 3 phenotype -  sex
 Raw_Phenotype_UCDavis = wcmc::read_data("Raw_Phenotype_UCDavis.xlsx")
@@ -148,7 +155,7 @@ Raw_Phenotype_UCDavis_e_merge[Raw_Phenotype_UCDavis_e_merge == "NA"] = NA
 Raw_Phenotype_UCDavis_e_null = Raw_Phenotype_UCDavis_e_merge[,Raw_Phenotype_UCDavis_p$Genotype %in% "(null)"]
 Raw_Phenotype_UCDavis_p_null = Raw_Phenotype_UCDavis_p[Raw_Phenotype_UCDavis_p$Genotype %in% "(null)",]
 
-p_val3 = c()
+p_val3 = fc3 = c()
 continuous_index = c()
 for(i in 1:nrow(Raw_Phenotype_UCDavis_e_merge)){
   
@@ -168,13 +175,19 @@ for(i in 1:nrow(Raw_Phenotype_UCDavis_e_merge)){
       return(NA)
     })
     
+    fc3[length(fc3)+1] = tryCatch(
+      summary(lm(as.numeric(Raw_Phenotype_UCDavis_e_null[i,]) ~ Raw_Phenotype_UCDavis_p_null$Gender))$coef[2,1]
+      ,error = function(er){
+        return(NA)
+      })
+    
     
   }else{
     continuous_index[i] = FALSE
     
     
     p_val3[length(p_val3)+1] = summary(xtabs(~Raw_Phenotype_UCDavis_e_null[i,] + Raw_Phenotype_UCDavis_p_null$Gender))$p.value
-    
+    fc3[length(fc3)+1] = summary(xtabs(~Raw_Phenotype_UCDavis_e_null[i,] + Raw_Phenotype_UCDavis_p_null$Gender))$statistic
   }
   
 }
@@ -183,6 +196,14 @@ for(i in 1:nrow(Raw_Phenotype_UCDavis_e_merge)){
 
 sum(p_val3[continuous_index]<0.05,na.rm = TRUE)/sum(continuous_index)
 
+
+
+
+fwrite(data.table(label = rownames(Raw_Phenotype_UCDavis_e_merge), p_value = p_val3, fold_change = fc3, adjusted_p_value = p.adjust(p_val3,'fdr')),"3 phenotype -  sex.csv")
+
+
+
+
 ## 4 phenotype -  sex adjusted by body weight
 # body_weight_all
 # sum(Raw_Phenotype_UCDavis_p_null$label%in%names(body_weight_all))/length(Raw_Phenotype_UCDavis_p_null$label)
@@ -190,7 +211,7 @@ sum(p_val3[continuous_index]<0.05,na.rm = TRUE)/sum(continuous_index)
 body_weight = body_weight_all[Raw_Phenotype_UCDavis_p_null$label]
 
 
-p_val4 = c()
+p_val4 = fc4 = c()
 continuous_index = c()
 for(i in 1:nrow(Raw_Phenotype_UCDavis_e_merge)){
   
@@ -210,18 +231,26 @@ for(i in 1:nrow(Raw_Phenotype_UCDavis_e_merge)){
         return(NA)
       })
     
+    fc4[length(fc4)+1] = tryCatch(
+      summary(lm(as.numeric(Raw_Phenotype_UCDavis_e_null[i,])~ Raw_Phenotype_UCDavis_p_null$Gender+body_weight))$coef[2,1]
+      ,error = function(er){
+        return(NA)
+      })
     
   }else{
     continuous_index[i] = FALSE
     
     
     p_val4[length(p_val4)+1] = summary(xtabs(~Raw_Phenotype_UCDavis_e_null[i,] + Raw_Phenotype_UCDavis_p_null$Gender + body_weight))$p.value
-    
+    fc4[length(fc4)+1] = summary(xtabs(~Raw_Phenotype_UCDavis_e_null[i,] + Raw_Phenotype_UCDavis_p_null$Gender + body_weight))$statistic
   }
   
 }
 
 sum(p_val4[continuous_index]<0.05,na.rm = TRUE)/sum(continuous_index)
+fwrite(data.table(label = rownames(Raw_Phenotype_UCDavis_e_merge), p_value = p_val4, fold_change = fc4, adjusted_p_value = p.adjust(p_val4,'fdr')),"4 phenotype -  sex adjusted by body weight.csv")
+
+
 
 
 
@@ -302,7 +331,12 @@ for(g in 2:length(unique_genes)){
 }
 sapply(p_values_female,function(x){sum(x<0.05,na.rm = TRUE)})
 
-
+for(i in 1:length(names(p_values_female))){
+  
+  fwrite(data.table(label = All_Metabolomics_f$label, p_value = p_values_female[[i]], fold_change = fold_changes_female[[i]], adjusted_p_value = adjusted_p_values_female[[i]]),paste0("5 FEMALE for each genotype (",names(p_values_female)[i],"), check which metabolite are associated with gene.gender, gene, gender, or not significant at all.csv"))
+  
+  
+}
 
 
 
@@ -336,6 +370,14 @@ for(g in 2:length(unique_genes)){
   
 }
 sapply(p_values_male,function(x){sum(x<0.05,na.rm = TRUE)})
+
+
+for(i in 1:length(names(p_values_male))){
+  
+  fwrite(data.table(label = All_Metabolomics_f$label, p_value = p_values_male[[i]], fold_change = fold_changes_male[[i]], adjusted_p_value = adjusted_p_values_male[[i]]),paste0("5 MALE for each genotype (",names(p_values_male)[i],"), check which metabolite are associated with gene.gender, gene, gender, or not significant at all.csv"))
+  
+  
+}
 
 
 
@@ -390,6 +432,17 @@ for(g in 2:length(unique_genes)){
   
 }
 sapply(p_values,function(x){sum(x<0.05,na.rm = TRUE)})
+
+
+for(i in 1:length(names(p_values_male))){
+  
+  fwrite(data.table(label = All_Metabolomics_f$label, p_value = p_values[[i]], fold_change = NA, adjusted_p_value = adjusted_p_values[[i]]),paste0("5 INTERACTION for each genotype (",names(p_values_male)[i],"), check which metabolite are associated with gene.gender, gene, gender, or not significant at all.csv"))
+  
+  
+}
+
+
+
 
 
 # 6 in null, the correlation between each phenotype and each metabolite.
@@ -515,10 +568,121 @@ Raw_Phenotype_UCDavis_e_null = Raw_Phenotype_UCDavis_e_null[,colnames(Null_Metab
 Raw_Phenotype_UCDavis_e_null = apply(Raw_Phenotype_UCDavis_e_null,2,as.numeric)
 rownames(Raw_Phenotype_UCDavis_e_null) = rownames(Raw_Phenotype_UCDavis_e_merge)
 
-
-cor = cor(t(Null_Metabolomics_e), t(Raw_Phenotype_UCDavis_e_null),use = "pairwise.complete.obs")
+# all gender
+cor = cor(t(Null_Metabolomics_e), t(Raw_Phenotype_UCDavis_e_null),use = "pairwise.complete.obs", method = "spearman")
 
 rownames(cor) = rownames(Null_Metabolomics_e)
 colnames(cor) = rownames(Raw_Phenotype_UCDavis_e_null)
+
+cor_test = cor
+for(i in 1:nrow(cor_test)){
+  print(i)
+  for(j in 1:ncol(cor_test)){
+    if(is.na(cor[i,j])){
+      cor_test[i,j] = NA
+    }else{
+      cor_test[i,j] = cor.test(Null_Metabolomics_e[i,], Raw_Phenotype_UCDavis_e_null[j,], method = "spearman")$p.value
+    }
+  }
+}
+
+
+
+# female only
+female_labels = Raw_Phenotype_UCDavis_p$label[Raw_Phenotype_UCDavis_p$Gender %in% "F"]
+cor_female = cor(t(Null_Metabolomics_e[,colnames(Null_Metabolomics_e) %in% female_labels]), t(Raw_Phenotype_UCDavis_e_null[,colnames(Raw_Phenotype_UCDavis_e_null) %in% female_labels]),use = "pairwise.complete.obs", method = "spearman")
+
+rownames(cor_female) = rownames(Null_Metabolomics_e[,colnames(Null_Metabolomics_e) %in% female_labels])
+colnames(cor_female) = rownames(Raw_Phenotype_UCDavis_e_null[,colnames(Raw_Phenotype_UCDavis_e_null) %in% female_labels])
+
+cor_test_female = cor_female
+for(i in 1:nrow(cor_test_female)){
+  print(i)
+  for(j in 1:ncol(cor_test_female)){
+    if(is.na(cor[i,j])){
+      cor_test_female[i,j] = NA
+    }else{
+      cor_test_female[i,j] = cor.test(Null_Metabolomics_e[i,], Raw_Phenotype_UCDavis_e_null[j,], method = "spearman")$p.value
+    }
+  }
+}
+write.csv(cor_female,paste0("6 in null, the correlation between each phenotype and each metabolite (correlation female).csv"))
+write.csv(cor_test_female,paste0("6 in null, the correlation between each phenotype and each metabolite (correlation p value female).csv"))
+
+
+# male only
+male_labels = Raw_Phenotype_UCDavis_p$label[Raw_Phenotype_UCDavis_p$Gender %in% "M"]
+cor_male = cor(t(Null_Metabolomics_e[,colnames(Null_Metabolomics_e) %in% male_labels]), t(Raw_Phenotype_UCDavis_e_null[,colnames(Raw_Phenotype_UCDavis_e_null) %in% male_labels]),use = "pairwise.complete.obs", method = "spearman")
+
+rownames(cor_male) = rownames(Null_Metabolomics_e[,colnames(Null_Metabolomics_e) %in% male_labels])
+colnames(cor_male) = rownames(Raw_Phenotype_UCDavis_e_null[,colnames(Raw_Phenotype_UCDavis_e_null) %in% male_labels])
+
+cor_test_male = cor_male
+for(i in 1:nrow(cor_test_male)){
+  print(i)
+  for(j in 1:ncol(cor_test_male)){
+    if(is.na(cor[i,j])){
+      cor_test_male[i,j] = NA
+    }else{
+      cor_test_male[i,j] = cor.test(Null_Metabolomics_e[i,], Raw_Phenotype_UCDavis_e_null[j,], method = "spearman")$p.value
+    }
+  }
+}
+
+write.csv(cor_male,paste0("6 in null, the correlation between each phenotype and each metabolite (correlation male).csv"))
+write.csv(cor_test_male,paste0("6 in null, the correlation between each phenotype and each metabolite (correlation p value male).csv"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
