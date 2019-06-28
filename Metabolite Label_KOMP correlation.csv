@@ -1,0 +1,814 @@
+_001,CPD037,D-Pantothenic Acid
+_002,CPD047,methionine sulfoxide
+_003,CPD079,glycine
+_004,CPD590,TG (52:1); TG(16:0/18:0/18:1(9Z))
+_005,CPD668,TG (58:7); TG(18:1/18:2/22:4)
+_006,CPD669,TG (58:7); TG(18:3/18:3/22:1)
+_007,CPD765,N-CHOLYLGLYCINE
+_008,CPD784,Trimethyllysine
+_009,CPD819,L-Pantothenic acid
+_010,CPD842,Ethanesulfonic Acid
+_011,CPD926,Tauroursodeoxycholic acid
+_012,CPD928,Glycocholic acid
+_013,CPD130,Acylcarnitine (15:2) 
+_014,CPD133,Acylcarnitine (18:1)
+_015,CPD134,Acylcarnitine (18:1(9Z)) 
+_016,CPD248,LPC (22:0) 
+_017,CPD391,PC (p-22:0)
+_018,CPD749,Ethanolamine
+_019,CPD761,Glutamic acid
+_020,CPD762,Glutamine
+_021,CPD825,Phenylalanine
+_022,CPD852,Tyrosine
+_023,CPD001,xylulose NIST
+_024,CPD002,xylose
+_025,CPD003,xylitol
+_026,CPD004,valine
+_027,CPD005,uridine
+_028,CPD006,uric acid
+_029,CPD007,urea
+_030,CPD008,uracil
+_031,CPD010,tryptophan
+_032,CPD011,trans-4-hydroxyproline
+_033,CPD847,Thymine
+_034,CPD013,thymidine
+_035,CPD014,threonine
+_036,CPD015,threonic acid
+_037,CPD016,taurine
+_038,CPD017,sulfuric acid
+_039,CPD018,sucrose
+_040,CPD838,Sucrose A
+_041,CPD019,succinic acid
+_042,CPD020,stearic acid
+_043,CPD834,Serine
+_044,CPD022,saccharic acid
+_045,CPD023,ribose
+_046,CPD024,ribonic acid
+_047,CPD025,ribitol
+_048,CPD026,raffinose
+_049,CPD027,pyruvic acid
+_050,CPD028,pseudo uridine
+_051,CPD829,Proline
+_052,CPD030,pinitol
+_053,CPD031,pimelic acid
+_054,CPD032,phosphate
+_055,CPD033,phenylethylamine
+_056,CPD035,phenol
+_057,CPD036,pelargonic acid
+_058,CPD039,palmitic acid
+_059,CPD040,oxoproline
+_060,CPD041,oxalic acid
+_061,CPD812,Ornithine
+_062,CPD044,octadecanol
+_063,CPD046,myo-inositol
+_064,CPD048,methionine
+_065,CPD049,mannose
+_066,CPD050,maltose
+_067,CPD051,malic acid
+_068,CPD052,lyxose
+_069,CPD053,lyxitol
+_070,CPD054,lysine
+_071,CPD056,leucine
+_072,CPD057,lauric acid
+_073,CPD058,lactic acid
+_074,CPD059,lactamide
+_075,CPD060,isothreonic acid
+_076,CPD061,isoleucine
+_077,CPD062,isohexonic acid
+_078,CPD063,isocitric acid
+_079,CPD064,inosine
+_080,CPD065,indoxyl sulfate
+_081,CPD066,indole-3-propionic acid
+_082,CPD067,indole-3-lactate
+_083,CPD068,indole-3-acetate
+_084,CPD069,hydroxylamine
+_085,CPD070,hydroxycarbamate NIST
+_086,CPD071,hydrocinnamic acid
+_087,CPD072,hippuric acid
+_088,CPD073,hexuronic acid
+_089,CPD074,hexose
+_090,CPD075,hexitol
+_091,CPD076,hexadecane
+_092,CPD077,heptadecanoic acid
+_093,CPD078,glycolic acid
+_094,CPD080,glycerol-alpha-phosphate
+_095,CPD081,glycerol-3-galactoside
+_096,CPD082,glycerol
+_097,CPD083,glyceric acid
+_098,CPD086,glucose-1-phosphate
+_099,CPD087,glucose
+_100,CPD088,fumaric acid
+_101,CPD089,fucose
+_102,CPD090,fructose
+_103,CPD092,erythritol
+_104,CPD093,dodecanol
+_105,CPD094,D-erythro-sphingosine
+_106,CPD095,cystine
+_107,CPD096,cysteine
+_108,CPD097,creatinine
+_109,CPD098,conduritol-beta-epoxide
+_110,CPD099,citrulline
+_111,CPD100,citric acid
+_112,CPD101,catechol
+_113,CPD102,caprylic acid
+_114,CPD103,capric acid
+_115,CPD105,benzoic acid
+_116,CPD106,aspartic acid
+_117,CPD107,asparagine
+_118,CPD108,arachidic acid
+_119,CPD109,aminomalonate
+_120,CPD110,alpha-ketoglutarate
+_121,CPD111,alpha-aminoadipic acid
+_122,CPD112,allantoic acid
+_123,CPD115,6-deoxyglucitol
+_124,CPD116,5-methoxytryptamine
+_125,CPD117,4-hydroxybutyric acid
+_126,CPD118,3-hydroxypropionic acid
+_127,CPD119,3-hydroxybutyric acid
+_128,CPD120,3-aminoisobutyric acid
+_129,CPD121,"3,6-anhydro-D-galactose"
+_130,CPD122,3-(3-hydroxyphenyl)propionic acid
+_131,CPD123,2-ketoisocaproic acid
+_132,CPD124,2-hydroxyglutaric acid
+_133,CPD125,2-hydroxybutanoic acid
+_134,CPD126,2-deoxytetronic acid
+_135,CPD127,2-aminobutyric acid
+_136,CPD128,"1,3,5-trimethylcyanuric acid"
+_137,CPD129,Acylcarnitine (14:1) 
+_138,CPD132,Acylcarnitine (18:0)
+_139,CPD135,Acylcarnitine (20:4) 
+_140,CPD136,Acylcarnitine C10:0 
+_141,CPD817,Palmityl-L-carnitine A
+_142,CPD138,Acylcarnitine C18:1 
+_143,CPD139,Acylcarnitine C18:2 
+_144,CPD140,CE (16:1) 
+_145,CPD141,CE (18:1) A
+_146,CPD142,CE (18:1) B
+_147,CPD143,CE (18:2) A
+_148,CPD144,CE (18:2) B
+_149,CPD145,CE (18:3) A
+_150,CPD146,CE (18:3) B
+_151,CPD147,CE (20:3) A
+_152,CPD149,CE (20:4) A
+_153,CPD150,CE (20:4) B
+_154,CPD151,CE (20:5) A
+_155,CPD152,CE (20:5) B
+_156,CPD153,CE (22:1) A
+_157,CPD154,CE (22:1) B
+_158,CPD155,CE (22:5) 
+_159,CPD156,CE (22:6) A
+_160,CPD157,CE (22:6) B
+_161,CPD158,CE (24:1) 
+_162,CPD159,Cer(NS) (40:1); Cer(NS)(d18:1/22:0)
+_163,CPD160,Cer(NS) (42:1); Cer
+_164,CPD162,Ceramide (d34:0) 
+_165,CPD163,Ceramide (d34:1) 
+_166,CPD165,Ceramide (d36:1) 
+_167,CPD166,Ceramide (d38:1) 
+_168,CPD167,Ceramide (d39:1) 
+_169,CPD168,Ceramide (d40:0) 
+_170,CPD169,Ceramide (d40:1) 
+_171,CPD170,Ceramide (d40:2) 
+_172,CPD171,Ceramide (d41:1) 
+_173,CPD172,Ceramide (d42:0) 
+_174,CPD173,Ceramide (d42:1) 
+_175,CPD175,Ceramide (d42:2) A 
+_176,CPD177,Ceramide (d43:1) 
+_177,CPD178,Ceramide (d44:1) 
+_178,CPD179,DG (32:1) 
+_179,CPD180,DG (34:1); DG(16:0/18:1)
+_180,CPD181,DG (34:2) 
+_181,CPD182,DG (34:3) 
+_182,CPD183,DG (36:2); DG(18:1/18:1)
+_183,CPD184,DG (36:3); DG(18:1/18:2)
+_184,CPD185,DG (36:4) 
+_185,CPD186,DG (36:5); DG(18:2/18:3)
+_186,CPD187,DG (38:6) 
+_187,CPD188,FA (13:0) (tridecylicacid) 
+_188,CPD189,FA (14:0) (myristicacid) 
+_189,CPD190,FA (14:1) (physetericacid) 
+_190,CPD191,FA (16:1) (palmitoleicacid) 
+_191,CPD192,FA (16:2); 
+_192,CPD193,FA (16:3); 
+_193,CPD194,FA (17:1) (heptadecenoicacid) 
+_194,CPD195,FA (17:2); 
+_195,CPD196,FA (18:1) (oleicacid) 
+_196,CPD197,FA (18:2) (linoleicacid) 
+_197,CPD198,FA (18:3) (linolenicacid) 
+_198,CPD199,FA (18:4)
+_199,CPD200,FA (19:0)
+_200,CPD201,FA (19:1)
+_201,CPD202,FA (20:1) (eicosenoicacid) 
+_202,CPD203,FA (20:2) (eicosadienoicacid) 
+_203,CPD204,FA (20:3) (eicosatrienoicacid) 
+_204,CPD205,FA (20:3) (homo-gamma-linolenicacid) 
+_205,CPD206,FA (20:4) (arachidonicacid) 
+_206,CPD207,FA (20:5) (eicosapentaenoicacid) 
+_207,CPD209,FA (21:0) B
+_208,CPD210,FA (22:2) (docosadienoicacid) 
+_209,CPD211,FA (22:3)
+_210,CPD212,FA (22:5)
+_211,CPD213,FA (22:6) (docosahexaenoicacid) 
+_212,CPD214,FA (22:7)
+_213,CPD215,FA (24:1) (nervonicacid) 
+_214,CPD216,GlcCer (d38:1) 
+_215,CPD217,GlcCer (d40:1) 
+_216,CPD218,GlcCer (d41:1) 
+_217,CPD219,GlcCer (d42:1) 
+_218,CPD221,GlcCer (d42:2) 
+_219,CPD222,GlcCer(d14:1(4E)/20:0(2OH)) 
+_220,CPD224,LPC (14:0)
+_221,CPD225,LPC (15:0) 
+_222,CPD227,LPC (16:0) 
+_223,CPD229,LPC (16:1) 
+_224,CPD232,LPC (18:0) B 
+_225,CPD234,LPC (18:1) 
+_226,CPD236,LPC (18:2); LPC(18:2/0:0) 
+_227,CPD237,LPC (18:3) 
+_228,CPD238,LPC (19:0) 
+_229,CPD239,LPC (20:0) 
+_230,CPD240,LPC (20:1) 
+_231,CPD242,LPC (20:2) 
+_232,CPD244,LPC (20:3) 
+_233,CPD246,"LPC (20:4); LysoPC(20:4(8Z,11Z,14Z,17Z)) "
+_234,CPD247,LPC (20:5) 
+_235,CPD249,LPC (22:4) 
+_236,CPD250,LPC (22:5) 
+_237,CPD253,LPC (24:0) 
+_238,CPD254,LPE (16:0) 
+_239,CPD258,LPE (18:1) 
+_240,CPD259,LPE (18:2) 
+_241,CPD261,LPE (20:4) A
+_242,CPD262,LPE (22:6) 
+_243,CPD264,LPC (18:2); LPC(0:0/18:2)
+_244,CPD268,"LPC (20:4); PC(20:4(5Z,8Z,11Z,14Z)/0:0) "
+_245,CPD271,LPC (22:1) 
+_246,CPD272,LPC (22:6) 
+_247,CPD274,LPE (17:0) 
+_248,CPD275,LPE (18:0) 
+_249,CPD276,LPE (18:3) 
+_250,CPD277,LPE (20:4) B
+_251,CPD278,LPE (22:5) 
+_252,CPD280,LysoPI (18:0)
+_253,CPD281,LysoPI (18:2)
+_254,CPD282,LysoPI (20:4)
+_255,CPD283,PC (28:0) 
+_256,CPD284,PC (30:0); PC(14:0/16:0)
+_257,CPD285,PC (30:1) 
+_258,CPD287,PC (32:0); PC(16:0/16:0)
+_259,CPD288,PC (32:1) 
+_260,CPD290,PC (32:2) 
+_261,CPD292,PC (33:0) 
+_262,CPD293,PC (33:1) A
+_263,CPD294,PC (33:1) B
+_264,CPD295,PC (33:2) 
+_265,CPD298,PC (34:0); PC(16:0/18:0)
+_266,CPD299,PC (34:1)
+_267,CPD301,PC (34:2)  PC(17:1(9Z)/17:1(9Z))
+_268,CPD302,PC (34:2) (16:0/18:2)
+_269,CPD304,"PC (34:3)  PC(20:3(8Z,11Z,14Z)/14:0)"
+_270,CPD305,PC (34:3); PC(16:1/18:2)
+_271,CPD306,"PC (34:3); PC(16:0/18:3(6Z,9Z,12Z))"
+_272,CPD307,PC (34:4) 
+_273,CPD310,PC (35:1) 
+_274,CPD312,"PC (35:2); PC(18:2(9Z,12Z)/17:0) "
+_275,CPD313,PC (35:2); PC(17:0/18:2)
+_276,CPD314,"PC (35:3); PC(18:2(9Z,12Z)/17:1(9Z))"
+_277,CPD315,PC (35:3); PC(17:1/18:2)
+_278,CPD316,"PC (35:4); PC(18:4(6Z,9Z,12Z,15Z)/17:0) "
+_279,CPD317,"PC (35:4); PC(13:0/22:4(7Z,10Z,13Z,16Z))"
+_280,CPD318,PC (36:0); PC(18:0/18:0)
+_281,CPD319,PC (36:1); PC(18:0/18:1(9Z))
+_282,CPD320,PC (36:1);  PC(18:0/18:1(11Z))
+_283,CPD321,PC (36:2) 
+_284,CPD322,PC (36:2); PC(18:0/18:2)
+_285,CPD323,"PC (36:3) A; PC(18:2(9Z,12Z)/18:1(11Z)) "
+_286,CPD324,"PC (36:3) A; PC(18:1(9Z)/18:2(6Z,9Z))"
+_287,CPD325,"PC (36:3) B; PC(18:0/18:3(6Z,9Z,12Z))"
+_288,CPD326,"PC (36:3) B; PC(18:0/18:3(9Z,12Z,15Z))"
+_289,CPD327,"PC (36:3); PC(18:1(9Z)/18:2(9Z,12Z))"
+_290,CPD328,"PC (36:4) A; PC(16:0/20:4(5Z,8Z,11Z,14Z))"
+_291,CPD330,"PC (36:4) B; PC(18:1(11Z)/18:3(9Z,12Z,15Z))"
+_292,CPD331,"PC (36:4) C; PC(18:3(6Z,9Z,12Z)/18:1(9Z)) "
+_293,CPD332,PC (36:4); PC(16:0/20:4)
+_294,CPD334,PC (36:5) A 
+_295,CPD336,PC (36:5) B 
+_296,CPD337,PC (36:5); PC(16:1/20:4)
+_297,CPD338,PC (36:6) 
+_298,CPD339,PC (37:1); PC(16:0/21:1)
+_299,CPD340,"PC (37:2); PC(18:2(9Z,12Z)/19:0) "
+_300,CPD341,"PC (37:2); PC(19:0/18:2(9Z,12Z))"
+_301,CPD342,PC (37:2)
+_302,CPD343,PC (37:3) 
+_303,CPD344,PC (37:4) 
+_304,CPD345,"PC (37:4); PC(17:0/20:4(5Z,8Z,11Z,14Z)) "
+_305,CPD346,PC (37:4); PC(17:1/20:3) 
+_306,CPD347,PC (37:6) 
+_307,CPD348,PC (38:1); PC(20:0/18:1)
+_308,CPD349,PC (38:2) 
+_309,CPD351,PC (38:2); PC(18:0/20:2)
+_310,CPD352,"PC (38:3); PC(18:2(9Z,12Z)/20:1(11Z))"
+_311,CPD353,"PC (38:3); PC(20:2(11Z,14Z)/18:1(11Z)) "
+_312,CPD354,PC (38:3); PC(18:0/20:3)
+_313,CPD355,PC (38:3); PC(20:1/18:2)
+_314,CPD356,PC (38:4) A 
+_315,CPD357,"PC (38:4); PC(18:0/20:4(5Z,8Z,11Z,14Z))"
+_316,CPD358,PC (38:4); PC(18:0/20:4)
+_317,CPD359,PC (38:4); PC(18:1/20:3)
+_318,CPD361,PC (38:5) A 
+_319,CPD362,PC (38:5) B 
+_320,CPD363,PC (38:6) 
+_321,CPD365,PC (38:6) C 
+_322,CPD366,PC (38:6); PC(18:2/20:4)
+_323,CPD367,PC (38:7) 
+_324,CPD368,PC (39:4); PC(19:0/20:4) 
+_325,CPD369,PC (39:6) 
+_326,CPD370,PC (40:4); PC(22:2/18:2) 
+_327,CPD371,"PC (40:4); PC(22:1(13Z)/18:3(9Z,12Z,15Z)) "
+_328,CPD373,PC (40:5) A 
+_329,CPD374,PC (40:5) B 
+_330,CPD375,PC (40:5); PC(18:0/22:5)
+_331,CPD376,PC (40:6) A 
+_332,CPD377,PC (40:6) B 
+_333,CPD378,PC (40:6); PC(20:2/20:4)
+_334,CPD379,PC (40:7) 
+_335,CPD380,PC (40:7); PC(18:1/22:6)
+_336,CPD381,PC (40:8) A 
+_337,CPD382,PC (40:8) B 
+_338,CPD383,PC (42:5) 
+_339,CPD384,PC (42:6); PC(20:0/22:6)
+_340,CPD385,PC (o-32:0) 
+_341,CPD388,PC (p-17:0) 
+_342,CPD389,PC (p-18:0)
+_343,CPD390,PC (p-20:0) 
+_344,CPD392,PC (p-32:0); PC(16:0/P-16:0) 
+_345,CPD393,PC (p-32:0); PC(P-16:0/16:0)
+_346,CPD394,PC (o-34:1); PC(O-18:1(11Z)/16:0) 
+_347,CPD395,PC (p-34:1); PC(P-16:0/18:1(11Z))
+_348,CPD396,PC (p-34:1); PC(P-18:1(11Z)/16:0)
+_349,CPD397,"PC (o-34:2); PC(O-16:0/18:2(9Z,12Z))"
+_350,CPD398,"PC (p-34:2); PC(P-16:0/18:2(9Z,12Z))"
+_351,CPD399,PC (p-36:1); PC(P-18:1(9Z)/18:0) 
+_352,CPD400,"PC (o-36:2); PC(O-16:0/20:2(11Z,14Z)) "
+_353,CPD401,PC (p-36:2); PC(P-18:1(9Z)/18:1(9Z))
+_354,CPD402,PC (o-36:4); PC(O-16:0/20:4) 
+_355,CPD403,PC (o-36:5) 
+_356,CPD404,PC (p-36:4); PC(P-14:0/22:4)
+_357,CPD405,PC (p-38:3) 
+_358,CPD406,"PC (p-38:3); PC(P-18:1(9Z)/20:2(11Z,14Z))"
+_359,CPD407,PC (o-38:4); PC(O-18:0/20:4) 
+_360,CPD408,"PC (p-38:4);PC(P-18:1(11Z)/20:3(8Z,11Z,14Z))"
+_361,CPD409,PC (p-38:4); PC(P-18:0/20:4)
+_362,CPD410,PC (o-38:5) B 
+_363,CPD411,PC (p-38:5); PC(20:4/P-18:1)
+_364,CPD412,PC (p-38:5); PC(P-16:0/22:5)
+_365,CPD413,PC (o-40:4); PC(O-20:0/20:4) 
+_366,CPD414,PC (o-40:5); PC(O-20:0/20:5) 
+_367,CPD415,PC (p-40:5); PC(P-18:0/22:5)
+_368,CPD416,PC (p-40:6)
+_369,CPD417,PC (p-42:4);PC(P-20:0/22:4)
+_370,CPD418,PC (o-42:5); PC(o-22:1(13Z)/20:4) 
+_371,CPD419,PC (o-42:6); PC(O-20:0/22:6) 
+_372,CPD420,"PC (o-44:5); PC(O-22:2(13Z,16Z)/22:3) "
+_373,CPD421,PE (34:1) 
+_374,CPD422,PE (34:2) 
+_375,CPD423,PE (34:2); PE(16:0/18:2)
+_376,CPD424,PE (34:3); PE(16:0/18:3)
+_377,CPD425,PE (36:1) 
+_378,CPD426,PE (36:2) 
+_379,CPD427,PE (36:2); PE(18:0/18:2)
+_380,CPD428,PE (36:3); PE(18:2/18:1)
+_381,CPD429,PE (36:3); PE(18:1/18:2) 
+_382,CPD430,"PE (36:4); PE(20:4(5Z,8Z,11Z,14Z)/16:0) "
+_383,CPD431,PE (36:4); PE(18:2/18:2)
+_384,CPD432,PE (36:4); PE(16:0/20:4)
+_385,CPD433,PE (36:5); PE(16:1/20:4)
+_386,CPD434,PE (37:2); PE(19:0/18:2)
+_387,CPD435,PE (38:2) 
+_388,CPD436,PE (38:4) A 
+_389,CPD437,PE (38:4) B 
+_390,CPD438,PE (38:5); PE(16:0/22:5)
+_391,CPD439,PE (38:5); PE(18:1/20:4)
+_392,CPD440,PE (38:6); PE(20:4/18:2) 
+_393,CPD441,"PE (38:6); PE(18:2(9Z,12Z)/20:4)"
+_394,CPD442,PE (38:6); PE(18:2/20:4)
+_395,CPD443,PE (40:5); PE(18:0/22:5)
+_396,CPD444,PE (40:6);PE(18:0/22:6) 
+_397,CPD445,PE (40:6); PE(18:0/22:6)
+_398,CPD446,PE (40:7); PE(18:1/22:6)
+_399,CPD447,PE (42:6); PE(20:0/22:6)
+_400,CPD448,PE (p-34:1); PE(P-18:1(9Z)/16:0)
+_401,CPD449,PE (p-36:1); PE(P-18:1(9Z)/18:0)
+_402,CPD450,PE (p-36:2); PE(P-18:0/18:2)
+_403,CPD451,PE (p-36:4); PE(P-16:0/20:4)
+_404,CPD452,PE (p-36:5); PE(P-16:0/20:5)
+_405,CPD453,PE (o-38:3); PE(O-18:0/20:3) 
+_406,CPD454,PE (o-38:4); PE(O-16:0/22:4) 
+_407,CPD455,PE (p-38:4); PE(P-18:0/20:4)
+_408,CPD456,PE (p-38:5); PE(P-18:0/20:5)
+_409,CPD457,PE (p-38:5); PE(20:4/P-18:1)
+_410,CPD458,PE (p-38:6); PE(P-16:0/22:6)
+_411,CPD459,PE (p-40:4); PE(P-20:0/20:4)
+_412,CPD460,PE (p-40:5); PE(P-18:1(11Z)/22:4)
+_413,CPD461,PE (p-40:6); PE(P-18:0/22:6)
+_414,CPD462,PE (p-40:7); PE(18:1p/22:6)
+_415,CPD463,PG (34:2); PG(16:0/18:2)
+_416,CPD464,PI (32:1); PI(16:1(9Z)/16:0)
+_417,CPD465,PI (34:1); PI(16:0/18:1)
+_418,CPD466,PI (34:2); PI(18:2/16:0)
+_419,CPD467,PI (35:2); PI(17:0/18:2)
+_420,CPD468,PI (36:1); PI(18:0/18:1)
+_421,CPD469,PI (36:2); PI(18:0/18:2)
+_422,CPD470,PI (36:3); PI(16:0/20:3)
+_423,CPD471,PI (36:3); PI(18:1/18:2)
+_424,CPD472,PI (36:4); PI(16:0/20:4)
+_425,CPD473,PI (34:4); PI(16:1/18:3)
+_426,CPD474,PI (36:5); PI(16:0/20:5)
+_427,CPD475,PI (37:2); PI(19:0/18:2)
+_428,CPD476,PI (37:4); PI(17:0/20:4)
+_429,CPD477,PI (38:3); PI(18:2/20:1)
+_430,CPD478,PI (38:4); PI(18:0/20:4)
+_431,CPD479,PI (38:4); PI(18:1/20:3)
+_432,CPD480,PI (38:5); PI(20:4/18:1) 
+_433,CPD481,PI (38:5); PI(18:1/20:4)
+_434,CPD482,PI (38:6); PI(16:0/22:6)
+_435,CPD483,PI (39:4); PI(19:0/20:4)
+_436,CPD484,PI (40:4); PI(18:0/22:4) 
+_437,CPD485,PI (40:4); PI(20:0/20:4)
+_438,CPD486,PI (40:5); PI(18:0/22:5)
+_439,CPD487,PI (40:6); PI(22:6/18:0)
+_440,CPD488,Plasmenyl-PC (36:2); PC(P-18:0/18:2)
+_441,CPD489,Plasmenyl-PE (34:2); PE(P-16:0/18:2)
+_442,CPD490,Plasmenyl-PE (37:4); PE(15:0/22:4)
+_443,CPD491,Plasmenyl-PE (37:6); PE(15:0/22:6) 
+_444,CPD492,Plasmenyl-PE (38:4); PE(P-16:0/22:4)
+_445,CPD493,Plasmenyl-PE (38:4); PE(P-18:0/20:4)
+_446,CPD494,Plasmenyl-PE (38:5); PE(P-18:0/20:5)
+_447,CPD495,Plasmenyl-PE (38:6); PE(P-16:0/22:6)
+_448,CPD496,Plasmenyl-PE (40:6); PE(P-18:0/22:6)
+_449,CPD497,Plasmenyl-PE (42:6); PE(P-20:0/22:6)
+_450,CPD498,SM (34:2); SM(d18:1/16:1)
+_451,CPD499,SM (40:1); SM(d17:1/23:0)
+_452,CPD500,SM (41:2); SM(d17:1/24:1)
+_453,CPD501,SM (41:2); SM(d17:1/24:1)
+_454,CPD506,SM (d32:1); SM(d18:1/14:0) 
+_455,CPD507,SM (d32:2) A
+_456,CPD508,SM (d32:2) B
+_457,CPD509,SM (d33:1); SM(d16:1/17:0) 
+_458,CPD510,SM (d33:1); SM(d14:0/19:1)
+_459,CPD511,SM (d34:0) 
+_460,CPD513,SM (d34:1) 
+_461,CPD514,SM (d34:2) 
+_462,CPD516,SM (d36:1) 
+_463,CPD517,SM (d36:2); SM(d16:1/20:1) 
+_464,CPD518,SM (d36:2); SM(d18:1/18:1) 
+_465,CPD519,SM (d36:2);  SM(d19:1/17:1) 
+_466,CPD521,SM (d36:3) 
+_467,CPD522,SM (d37:1) 
+_468,CPD523,SM (d38:1); SM(D18:1/20:0) 
+_469,CPD524,SM (d38:1); SM(d16:1/22:0)
+_470,CPD525,SM (d38:2) 
+_471,CPD526,SM (d39:1); SM(d18:1/21:0) 
+_472,CPD527,SM (d39:1); SM(d16:1/23:0)
+_473,CPD528,SM (d40:0) 
+_474,CPD529,SM (d40:1) 
+_475,CPD530,SM (d40:2); SM(d16:1/24:1)
+_476,CPD532,SM (d40:2); SM(d18:1/22:1) 
+_477,CPD533,SM (d40:3) 
+_478,CPD534,SM (d41:1); SM(d17:1/24:0)
+_479,CPD536,SM (d41:2); SM(d18:2/23:0) 
+_480,CPD537,SM (d42:0); SM(d18:0/24:0) 
+_481,CPD538,SM (d42:1); SM(d18:1/24:0)
+_482,CPD540,SM (d42:2); SM(d18:2/24:0)
+_483,CPD541,SM (d42:2); SM(d18:1/24:1(15Z)) 
+_484,CPD543,SM (d42:3) 
+_485,CPD544,SM (d43:1) 
+_486,CPD546,SM (d43:2); SM(d17:1/26:1)
+_487,CPD547,SM (d43:2); SM(d19:1/24:1) 
+_488,CPD549,TG (44:1)
+_489,CPD550,TG (44:2) 
+_490,CPD551,TG (46:0) 
+_491,CPD552,TG (46:1); TG(12:0/16:0/18:1)
+_492,CPD553,TG (46:2); TG(14:0/16:1/16:1) 
+_493,CPD554,TG (46:2); TG(12:0/16:0/18:2)
+_494,CPD555,TG (46:3)
+_495,CPD556,TG (47:0); TG(14:0/16:0/17:0)
+_496,CPD557,TG (47:1); TG(15:0/16:0/16:1)
+_497,CPD558,TG (48:0); TG(14:0/16:0/18:0)
+_498,CPD559,TG (48:0); TG(16:0/16:0/16:0)
+_499,CPD560,TG (48:1); TG(14:0/16:0/18:1) 
+_500,CPD561,TG (48:2); TG(16:0/16:1(9Z)/16:1(9Z)) 
+_501,CPD562,TG (48:2); TG(14:0/16:0/18:2)
+_502,CPD563,TG (48:3); TG(16:1/16:1/16:1) 
+_503,CPD564,TG (48:3); TG(14:0/16:1/18:2)
+_504,CPD565,TG (48:4); TG(12:0/18:2/18:2)
+_505,CPD566,TG (49:0); TG(16:0/16:0/17:0)
+_506,CPD567,TG (49:1); TG(16:0/16:0/17:1)
+_507,CPD568,TG (49:2); TG(16:1/16:1/17:0)
+_508,CPD569,TG (49:3) 
+_509,CPD570,TG (49:4); TG(15:2/16:0/18:2)
+_510,CPD571,TG (50:1); TG(16:0/16:0/18:1)
+_511,CPD572,TG (50:2); TG(16:0/16:1/18:1)
+_512,CPD573,TG (50:3); TG(16:1/16:1/18:1) 
+_513,CPD574,TG (50:3); TG(16:0/16:1/18:2)
+_514,CPD575,TG (50:4); TG(14:0/16:0/20:4)
+_515,CPD576,TG (50:4); TG(16:1/16:1/18:2)
+_516,CPD577,TG (50:5); TG(16:1/16:1/18:3) 
+_517,CPD578,TG (50:5); TG(14:0/18:2/18:3)
+_518,CPD579,TG (51:0); TG(16:0/17:0/18:0)
+_519,CPD580,TG (51:1); TG(17:0/17:0/17:1)
+_520,CPD581,TG (51:2); TG(17:0/17:1/17:1)
+_521,CPD582,TG (51:3); TG(15:0/18:1/18:2)
+_522,CPD583,TG (51:4); TG(16:1/17:2/18:1) 
+_523,CPD584,TG (51:4); TG(15:0/18:2/18:2)
+_524,CPD585,TG (51:5); TG(15:0/18:2/18:3)
+_525,CPD587,TG (52:0) 
+_526,CPD588,TG (52:1) 
+_527,CPD591,TG (52:2); TG(14:0/18:2/20:0)
+_528,CPD592,TG (52:3); TG(14:0/18:2/20:1)
+_529,CPD593,TG (52:4); TG(16:1/18:1/18:2) 
+_530,CPD594,TG (52:4); TG(16:0/18:2/18:2)
+_531,CPD595,TG (52:5); TG(16:1/18:2/18:2) 
+_532,CPD596,TG (52:5); TG(16:0/18:2/18:3)
+_533,CPD597,TG (52:6); TG(14:0/18:2/20:4) 
+_534,CPD598,TG (52:6); TG(16:1/18:2/18:3)
+_535,CPD599,TG (52:7); TG(16:1/18:2/18:4)
+_536,CPD600,TG (53:1); TG(17:1/18:0/18:0)
+_537,CPD601,TG (53:2); TG(17:2/18:0/18:0)
+_538,CPD602,TG (53:3); TG(17:1/18:1/18:1) 
+_539,CPD603,TG (53:3); TG(17:0/18:1/18:2)
+_540,CPD604,TG (53:4); TG(17:2/18:1/18:1) 
+_541,CPD605,TG (53:4); TG(17:1/18:1/18:2)
+_542,CPD606,TG (53:5); TTG(17:2/17:2/19:1)
+_543,CPD607,TG (53:5); TG(17:1/18:2/18:2)
+_544,CPD608,TG (54:1); TG(18:0/18:0/18:1)
+_545,CPD609,TG (54:2); TG(14:0/18:2/22:0)
+_546,CPD610,TG (54:3) 
+_547,CPD612,TG (54:3); TG(16:1/18:1/20:1)
+_548,CPD613,TG (54:3); TG(18:0/18:1/18:2)
+_549,CPD614,TG (54:4); TG(18:0/18:1/18:3) 
+_550,CPD615,TG (54:4); TG(16:0/18:0/20:4)
+_551,CPD616,TG (54:4); TG(18:1/18:1/18:2)
+_552,CPD617,TG (54:4); TG(17:2/17:2/20:0)
+_553,CPD618,TG (54:5); TG(18:1/18:1/18:3)
+_554,CPD619,TG (54:5); TG(17:2/17:2/20:1)
+_555,CPD620,TG (54:5); TG(18:1/18:2/18:2)
+_556,CPD621,TG (54:6); TG(16:1/18:1/20:4)
+_557,CPD622,TG (54:6); TG(16:0/18:2/20:4)
+_558,CPD623,TG (54:6); TG(18:2/18:2/18:2)
+_559,CPD624,TG (54:7); TG(16:0/16:1/22:6)
+_560,CPD625,TG (54:7); TG(16:0/18:2/20:5)
+_561,CPD626,TG (54:7); TG(16:1/18:2/20:4) 
+_562,CPD627,TG (54:7); TG(18:2/18:2/18:3)
+_563,CPD628,TG (54:8); TG(17:2/17:2/20:4) 
+_564,CPD629,TG (54:8); TG(14:0/18:2/22:6)
+_565,CPD630,TG (54:8); TG(18:2/18:3/18:3)
+_566,CPD631,TG (55:3); TG(18:1/18:2/19:0)
+_567,CPD632,TG (55:4); TG(18:2/18:2/19:0)
+_568,CPD633,TG (56:0); TG(16:0/18:0/22:0)
+_569,CPD635,TG (56:1); TG(16:0/18:1/22:0)
+_570,CPD636,TG (56:10); TG(18:2/18:3/20:5)
+_571,CPD637,TG (56:2); TG(18:0/18:2/20:0)
+_572,CPD638,TG (56:3); TG(18:1/18:1/20:1)
+_573,CPD639,TG (56:4); TG(18:1/18:2/20:1)
+_574,CPD640,TG (56:4); TG(18:2/18:2/20:0)
+_575,CPD641,TG (56:5); TG(16:0/18:1/22:4)
+_576,CPD642,TG (56:5); TG(18:0/18:1/20:4)
+_577,CPD643,TG (56:5); TG(18:2/18:2/20:1)
+_578,CPD644,TG (56:6); TG(18:2/18:2/20:2) 
+_579,CPD645,TG (56:6); TG(18:1/18:1/20:4)
+_580,CPD646,TG (56:6); TG(18:1/18:2/20:3)
+_581,CPD647,TG (56:7); TG(18:2/18:2/20:3) 
+_582,CPD648,TG (56:7); TG(18:1/18:2/20:4)
+_583,CPD649,TG (56:7); TG(18:2/18:3/20:2)
+_584,CPD650,TG (56:8); TG(16:0/18:2/22:6)
+_585,CPD651,TG (56:8); TG(18:2/18:2/20:4)
+_586,CPD652,TG (56:8); TG(16:0/20:4/20:4)
+_587,CPD653,TG (56:9); TG(16:0/18:3/22:6)
+_588,CPD654,TG (56:9); TG(16:1/18:2/22:6)
+_589,CPD655,TG (56:9); TG(18:2/18:3/20:4)
+_590,CPD656,TG (58:0); TG(18:0/20:0/20:0) 
+_591,CPD657,TG (58:1); TG(18:1/20:0/20:0) 
+_592,CPD658,TG (58:10); TG(18:2/20:4/20:4) 
+_593,CPD659,TG (58:10); TG(18:2/18:2/22:6)
+_594,CPD660,TG (58:11); TG(18:2/18:3/22:6)
+_595,CPD661,TG (58:12); TG(18:3/18:3/22:6)
+_596,CPD662,TG (58:2) 
+_597,CPD663,TG (58:3); TG(18:1/20:1/20:1) 
+_598,CPD664,TG (58:4) A 
+_599,CPD665,TG (58:5); TG(18:2/18:2/22:1)
+_600,CPD666,TG (58:6); TG(18:1/20:1/20:4)
+_601,CPD667,TG (58:7); TG(18:0/18:1/22:6)
+_602,CPD670,TG (58:8); TG(18:0/20:4/20:4) 
+_603,CPD671,TG (58:8); TG(18:1/18:1/22:6)
+_604,CPD672,TG (58:9); TG(18:1/18:2/22:6)
+_605,CPD673,TG (58:9); TG(18:1/20:4/20:4)
+_606,CPD674,TG (60:11); TG(18:1/20:4/22:6)
+_607,CPD675,TG (60:11); TG(18:2/20:3/22:6)
+_608,CPD676,TG (60:12); TG(16:0/22:6/22:6)
+_609,CPD677,TG (60:12); TG(18:2/20:4/22:6)
+_610,CPD678,TG (60:13); TG(18:2/20:5/22:6)
+_611,CPD679,TG (60:2); TG(20:0/20:1/20:1) 
+_612,CPD680,TG (62:13); TG(18:2/22:5/22:6)
+_613,CPD681,TG (62:14); TG(18:2/22:6/22:6)
+_614,CPD682,"(2-oxo-2,3-dihydro-1H-indol-3-yl)acetic acid"
+_615,CPD683,"(2S,3S)-(-)-3-Phenylglycidol"
+_616,CPD684,.gamma.-L-Glu-.epsilon.-L-Lys
+_617,CPD685,"1,2-Diamino-2-methylpropane"
+_618,CPD686,"1,4-Cyclohexanedione"
+_619,CPD687,"1,5-Hexadien-3-ol A"
+_620,CPD688,"1,5-Hexadien-3-ol B"
+_621,CPD689,12-Ketodeoxycholic acid
+_622,CPD690,"15(S)-Hydroxy-(5Z,8Z,11Z,13E)-eicosatetraenoic acid"
+_623,CPD691,"15-Deoxy-.DELTA.12,14-prostaglandin J2"
+_624,CPD692,1-Hexadecylamine
+_625,CPD693,1H-Indole-4-carboxaldehyde
+_626,CPD694,1-Octadecanamine
+_627,CPD696,"2,2-Bis[hydroxymethyl]-2,2',2''-nitrilotriethanol"
+_628,CPD697,"2,8-Quinolinediol"
+_629,CPD698,2-Amino-1-phenylethanol
+_630,CPD699,2'-Deoxycytidine
+_631,CPD700,2-Methylglutaric acid
+_632,CPD701,"2-Propenoic acid, 3-(4-methoxyphenyl)-"
+_633,CPD702,3.beta.-Hydroxy-5-cholenoic acid
+_634,CPD704,3-Methylhistidine
+_635,CPD705,3-Ureidopropionic acid
+_636,CPD706,4-Guanidinobutyric acid
+_637,CPD707,4-Hydroxy-3-methoxycinnamic acid
+_638,CPD708,4-Hydroxy-6-methyl-2-pyrone
+_639,CPD709,4-Imidazoleacrylic acid
+_640,CPD854,Urocanic acid
+_641,CPD710,"5-Methyl-5,6-Dihydrouracil"
+_642,CPD721,"Adenosine, 5'-S-methyl-5'-thio-"
+_643,CPD712,9(10)-EpOME
+_644,CPD713,"9,10-Dihydroxy-12Z-octadecenoic acid"
+_645,CPD714,"9,12-Octadecadiynoic Acid"
+_646,CPD715,"9-Octadecenamide, (Z)-"
+_647,CPD897,"9-ketooctadeca-10,12-dienoic acid"
+_648,CPD717,"9S,11R-Dihydroxy-15-oxo-5Z,13E-prostadienoic acid"
+_649,CPD718,Acetylcarnitine
+_650,CPD719,Acetylcholine cation
+_651,CPD720,Adenosine
+_652,CPD722,Alanine
+_653,CPD723,Anserine
+_654,CPD724,Arg-Ala
+_655,CPD725,Arginine
+_656,CPD726,Arg-Ser
+_657,CPD727,Azelaic acid
+_658,CPD728,"Benzenemethanol, 4-methyl-"
+_659,CPD729,beta-Alanine
+_660,CPD730,Betaine
+_661,CPD731,Bicyclo[2.2.1]heptane-2-methanol
+_662,CPD732,Biliverdin
+_663,CPD733,Carnosine
+_664,CPD734,"Cholest-4-en-26-oic acid, 7.alpha.-hydroxy-3-oxo"
+_665,CPD735,Choline
+_666,CPD736,"Conjugated linoleic Acid (10E,12Z)"
+_667,CPD738,Cotinine
+_668,CPD739,Creatine
+_669,CPD740,Curcumol
+_670,CPD741,"Cyclopropanecarboxylic acid, 1-amino-"
+_671,CPD742,Cysteine S-sulfate
+_672,CPD744,Decanoyl-L-carnitine
+_673,CPD776,L-Carnitine
+_674,CPD745,Dexpanthenol
+_675,CPD746,dGMP
+_676,CPD747,Dibutyl adipate
+_677,CPD748,Ergothioneine
+_678,CPD752,exo-Norbornyl alcohol C
+_679,CPD753,Ferulic acid
+_680,CPD754,Galactosamine
+_681,CPD755,gamma-Aminobutyric Acid (GABA)
+_682,CPD756,gamma-D-Glutamylglycine
+_683,CPD757,gamma-Glutamylleucine
+_684,CPD758,gamma-Glutamylmethionine
+_685,CPD759,Genipin
+_686,CPD760,Glu-Gln
+_687,CPD763,Glutathione (reduced)
+_688,CPD766,Histamine
+_689,CPD767,Histidine
+_690,CPD768,Homoarginine
+_691,CPD769,H-Pro-Hyp-OH B
+_692,CPD770,Hypoxanthine
+_693,CPD771,Ile-Arg
+_694,CPD772,Indole-3-acetamide
+_695,CPD773,Isobutyryl carnitine
+_696,CPD775,Kynurenic acid
+_697,CPD777,L-Citrulline
+_698,CPD778,Leu-Leu
+_699,CPD779,"L-Histidine, 1-methyl-"
+_700,CPD780,L-Tryptophan
+_701,CPD782,Methenamine
+_702,CPD785,"N,N,N-Trimethyllysine"
+_703,CPD786,"N,N-Dimethylarginine"
+_704,CPD787,"N,N-Dimethyl-L-valine"
+_705,CPD788,N-.alpha.-Acetyl-L-arginine
+_706,CPD789,N.alpha.-Acetyl-L-lysine
+_707,CPD790,N-.alpha.-Acetyl-L-ornithine
+_708,CPD791,N.epsilon.-Methyl-L-lysine
+_709,CPD792,N5-(1-Iminoethyl)-L-ornithine
+_710,CPD793,N6-(1-Iminoethyl)-L-lysine
+_711,CPD794,N8-Acetylspermidine
+_712,CPD795,N-Acetylhistidine
+_713,CPD796,N-Acetyl-leucine
+_714,CPD797,N-Acetylmethionine
+_715,CPD798,N-Acetylphenylalanine
+_716,CPD799,N-Acetylputrescine
+_717,CPD800,N-Acetyltryptophan
+_718,CPD801,N-alpha-methylhistamine
+_719,CPD802,N-epsilon-Acetyllysine
+_720,CPD803,N-Formylmethionine
+_721,CPD804,N-gamma-Acetyl-N-2-formyl-5-methoxykynurenamine
+_722,CPD805,Niacinamide
+_723,CPD807,N-Methylglutamic acid
+_724,CPD808,N-Methyllysine
+_725,CPD809,N-Methylproline
+_726,CPD810,Norleucine
+_727,CPD811,n-Pentadecylamine
+_728,CPD813,Oxindole
+_729,CPD814,Palmitamide
+_730,CPD815,Palmitoyl ethanolamide
+_731,CPD816,Palmitoyl-L-carnitine cation
+_732,CPD820,Perillaldehyde
+_733,CPD821,Phe-Arg
+_734,CPD822,"Phenol, 4-(2-aminoethyl)-"
+_735,CPD823,Phenylacetaldehyde
+_736,CPD824,Phenylacetylglycine
+_737,CPD826,Phlorobenzophenone
+_738,CPD828,Phosphocholine B
+_739,CPD830,Propionylcarnitine
+_740,CPD831,Pyridoxal
+_741,CPD833,Retinoic acid
+_742,CPD835,Serotonin
+_743,CPD837,Spermine
+_744,CPD843,Tetradecylamine
+_745,CPD844,Tetradonium cation
+_746,CPD845,Thiazolidine-4-carboxylic acid
+_747,CPD848,TMAO
+_748,CPD849,Triethanolamine
+_749,CPD850,Trigonelline
+_750,CPD851,Tris(2-butoxyethyl) phosphate
+_751,CPD855,Thromboxane B2
+_752,CPD858,Prostaglandin D2
+_753,CPD860,Prostaglandin E3
+_754,CPD862,"9,12,13-trihydroxyoctadec-10-enoic acid"
+_755,CPD863,"9S,10R-dihydroxy-stearic acid "
+_756,CPD864,"12,13-dihydroxyoctadec-9-enoic acid"
+_757,CPD865,"9,10-dihydroxyoctadec-12-enoic acid"
+_758,CPD866,"15,16-dihydroxyoctadeca-9,12-dienoic acid"
+_759,CPD867,"12,13-dihydroxyoctadeca-9,15-dienoic acid"
+_760,CPD868,"9,10-dihydroxyoctadeca-12,15-dienoic acid"
+_761,CPD869,"14,15-dihydroxyeicosa-5,8,11-trienoic acid"
+_762,CPD870,"11,12-Dihydroxyicosa-5,8,14-trienoic acid"
+_763,CPD871,"8,9-dihydroxyeicosa-5,11,14-trienoic acid"
+_764,CPD872,"5,6-dihydroxyeicosa-8,11,14-trienoic acid"
+_765,CPD873,"17,18-dihydroxyeicosa-5,8,11,14-tetraenoic acid"
+_766,CPD874,"14,15-dihydroxyeicosa-5,8,11,17-tetraenoic acid"
+_767,CPD875,"19,20-dihydroxydocosa-4,7,10,13,16-pentaenoic acid"
+_768,CPD878,6-trans-Leukotriene B4
+_769,CPD879,13-Hydroxyoctadecadienoic acid
+_770,CPD880,9-Hydroxylinoleic acid
+_771,CPD881,"13-hydroxyoctadeca-9,11,15-trienoic acid"
+_772,CPD882,"9-hydroxyoctadeca-10,12,15-trienoic acid"
+_773,CPD884,"15-hydroxyeicosa-5,8,11,13-tetraenoic acid"
+_774,CPD885,"12-Hydroxy-5,8,10,14-eicosatetraenoic acid"
+_775,CPD886,"8-hydroxyeicosa-5,9,11,14-tetraenoic acid"
+_776,CPD887,11-Hydroxy-arachidonic acid
+_777,CPD888,"9-hydroxyeicosa-5,7,11,14-tetraenoic acid"
+_778,CPD889,"5-Hydroxy-6,8,11,14-eicosatetraenoic acid"
+_779,CPD890,"15-hydroxyeicosa-5,8,11,13,17-pentaenoic acid"
+_780,CPD891,"12-Hydroxy-5,8,10,14,17-eicosapentaenoic acid"
+_781,CPD892,"5-Hydroxy-6,8,11,14,17-eicosapentaenoic acid"
+_782,CPD893,"17-hydroxy-4,7,10,13,15,19-docosahexaenoic acid"
+_783,CPD894,"14-hydroxydocosa-4,7,10,12,16,19-hexaenoic acid"
+_784,CPD895,"4-hydroxydocosa-5,7,10,13,16,19-hexaenoic acid"
+_785,CPD896,"13-ketooctadeca-9,11-dienoic acid"
+_786,CPD898,"15-ketoeicosa-5,8,11,13-tetraenoic acid"
+_787,CPD901,"trans-12,13-epoxy-11-oxo-trans-9-octadecenoic acid"
+_788,CPD902,"12,13-epoxy-9-octadecenoic acid"
+_789,CPD903,9(10)-epoxy-12Z-octadecenoic acid
+_790,CPD904,"15(16)-epoxy-9,12-octadecadienoic acid"
+_791,CPD906,"12(13)-epoxy-9,15-octadecadienoic acid"
+_792,CPD907,"11,12-Epoxyeicosa-5,8,14-trienoic acid"
+_793,CPD908,"8,9-Epoxyeicosa-5,11,14-trienoic acid"
+_794,CPD909,"17,18-Epoxy-5,8,11,14-eicosatetraenoic acid"
+_795,CPD910,10-nitrooleic acid
+_796,CPD911,10-nitrolinoleic acid
+_797,CPD912,corticosterone
+_798,CPD913,Glycoursodeoxycholic acid
+_799,CPD914,Cholic acid
+_800,CPD915,Chenodeoxycholic acid
+_801,CPD916,Tauro-omega-Muricholic acid
+_802,CPD917,Tauro-beta-Muricholic acid
+_803,CPD918,Taurodeoxycholic acid
+_804,CPD919,Taurocholic acid
+_805,CPD920,Tauro-alphaMuricholic acid
+_806,CPD921,Deoxycholic acid
+_807,CPD922,Taurochenodeoxycholic acid
+_808,CPD923,beta-Muricholic acid
+_809,CPD924,omega-Muricholic acid
+_810,CPD925,progesterone
+_811,CPD927,cortexone
+_812,CPD929,Glycodeoxycholic acid
+_813,CPD930,cortisol
+_814,CPD933,Lithocholic acid

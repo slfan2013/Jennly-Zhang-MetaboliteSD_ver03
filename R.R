@@ -155,6 +155,8 @@ Raw_Phenotype_UCDavis_e_merge[Raw_Phenotype_UCDavis_e_merge == "NA"] = NA
 Raw_Phenotype_UCDavis_e_null = Raw_Phenotype_UCDavis_e_merge[,Raw_Phenotype_UCDavis_p$Genotype %in% "(null)"]
 Raw_Phenotype_UCDavis_p_null = Raw_Phenotype_UCDavis_p[Raw_Phenotype_UCDavis_p$Genotype %in% "(null)",]
 
+
+
 p_val3 = fc3 = c()
 continuous_index = c()
 for(i in 1:nrow(Raw_Phenotype_UCDavis_e_merge)){
